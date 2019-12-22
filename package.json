@@ -1,0 +1,30 @@
+{
+  "name": "@jackfletch/splash-vis-utils",
+  "version": "0.0.1",
+  "description": "A collection of utility functions for visualizing basketball data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackfletch/splash-vis-utils.git"
+  },
+  "keywords": [
+    "basketball",
+    "visualization",
+    "utilities",
+    "data",
+    "d3"
+  ],
+  "author": {
+    "name": "Jack Fletcher",
+    "email": "jdfletch97@gmail.com",
+    "url": "https://jackfletch.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackfletch/splash-vis-utils/issues"
+  },
+  "homepage": "https://github.com/jackfletch/splash-vis-utils#readme"
+}
