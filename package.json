@@ -4,7 +4,9 @@
   "description": "A collection of utility functions for visualizing basketball data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -b",
+    "lint": "npm run lint:types",
+    "lint:types": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/jackfletch/splash-vis-utils/issues"
   },
-  "homepage": "https://github.com/jackfletch/splash-vis-utils#readme"
+  "homepage": "https://github.com/jackfletch/splash-vis-utils#readme",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
 }
