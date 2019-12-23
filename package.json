@@ -2,9 +2,13 @@
   "name": "@jackfletch/splash-vis-utils",
   "version": "0.1.0",
   "description": "A collection of utility functions for visualizing basketball data",
-  "main": "index.js",
+  "main": "dist/es5/index.js",
+  "module": "dist/esnext/index.js",
+  "types": "dist/esnext/index.d.ts",
   "scripts": {
-    "build": "tsc -b",
+    "build": "npm run build:esnext && npm run build:es5",
+    "build:es5": "rollup -c",
+    "build:esnext": "tsc -b",
     "lint": "npm run lint:types && npm run lint:fix",
     "lint:check": "npm run eslint:check && npm run prettier:check",
     "lint:fix": "npm run eslint:fix && npm run prettier:fix",
@@ -45,6 +49,7 @@
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.19.1",
     "prettier": "^1.19.1",
+    "rollup": "^1.27.14",
     "typescript": "^3.7.4"
   }
 }
