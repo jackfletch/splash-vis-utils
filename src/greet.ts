@@ -4,7 +4,8 @@ export interface Person {
 }
 
 function greet(person: Person): void {
-  console.log("hello " + person?.firstName);
+  // eslint-disable-next-line no-console
+  console.log(`hello ${person?.firstName}`);
 }
 
 export default greet;

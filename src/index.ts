@@ -1,1 +1,1 @@
-export { default as greet, Person } from "./greet";
+export {default as greet, Person} from "./greet";
