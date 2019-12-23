@@ -1,3 +1,5 @@
+import {terser} from "rollup-plugin-terser";
+
 import pkg from "./package.json";
 import tsconfig from "./tsconfig.json";
 
@@ -16,9 +18,19 @@ export default {
       format: "cjs",
       banner,
     },
+    {
+      file: `${pkg.main.slice(0, -3)}.min.js`,
+      format: "cjs",
+      banner,
+    },
   ],
   external: [
     ...Object.keys(pkg.dependencies || {}),
     ...Object.keys(pkg.peerDependencies || {}),
+  ],
+  plugins: [
+    terser({
+      include: [/^.+\.min\.js$/],
+    }),
   ],
 };
