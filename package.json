@@ -5,6 +5,9 @@
   "main": "dist/es5/index.js",
   "module": "dist/esnext/index.js",
   "types": "dist/esnext/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "run-s build:esnext build:es5",
@@ -18,7 +21,8 @@
     "eslint:fix": "eslint \"**/*.ts\" --fix",
     "eslint-prettier:config": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "prettier:check": "prettier --check \"**/*.{js,json,ts,md}\"",
-    "prettier:fix": "prettier --write \"**/*.{js,json,ts,md}\""
+    "prettier:fix": "prettier --write \"**/*.{js,json,ts,md}\"",
+    "prepublish": "npm run build"
   },
   "husky": {
     "hooks": {
