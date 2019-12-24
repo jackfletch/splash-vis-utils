@@ -6,6 +6,7 @@
   "module": "dist/esnext/index.js",
   "types": "dist/esnext/index.d.ts",
   "scripts": {
+    "prebuild": "rm -rf dist",
     "build": "run-s build:esnext build:es5",
     "build:es5": "rollup -c",
     "build:esnext": "tsc -b",
