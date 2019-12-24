@@ -23,7 +23,8 @@
     "prettier:check": "prettier --check \"**/*.{js,json,ts,md}\"",
     "prettier:fix": "prettier --write \"**/*.{js,json,ts,md}\"",
     "prepublish": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "npm run test -- --coverage --coverageReporters \"text\""
   },
   "husky": {
     "hooks": {
