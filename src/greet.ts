@@ -3,9 +3,8 @@ export interface Person {
   lastName: string;
 }
 
-function greet(person: Person): void {
-  // eslint-disable-next-line no-console
-  console.log(`hello ${person?.firstName}`);
+function greet(person: Person): string {
+  return `hello ${person.firstName ?? person.lastName}`;
 }
 
 export default greet;
