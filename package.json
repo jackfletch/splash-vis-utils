@@ -8,6 +8,7 @@
   "files": [
     "dist"
   ],
+  "sideEffects": false,
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "run-s build:esnext build:es5",
