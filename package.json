@@ -1,6 +1,6 @@
 {
   "name": "@jackfletch/splash-vis-utils",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A collection of utility functions for visualizing basketball data",
   "main": "dist/es5/index.js",
   "module": "dist/esnext/index.js",
