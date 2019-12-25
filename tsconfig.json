@@ -1,15 +1,8 @@
 {
+  "extends": "./tsconfig.build.json",
   "compilerOptions": {
-    "target": "ES2019",
-    "module": "ESNext",
-    "declaration": true,
-    "sourceMap": true,
-    "outDir": "dist/esnext",
-    "strict": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmitOnError": true
+    "allowJs": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "test/**/*", "test/**/*.json", "**/*.js"],
+  "exclude": ["dist"]
 }

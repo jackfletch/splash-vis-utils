@@ -1,7 +1,7 @@
 import {terser} from "rollup-plugin-terser";
 
 import pkg from "./package.json";
-import tsconfig from "./tsconfig.json";
+import tsconfig from "./tsconfig.build.json";
 
 const inputDir = tsconfig.compilerOptions.outDir;
 const banner = `/** @license ${pkg.name} v${

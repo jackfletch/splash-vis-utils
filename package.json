@@ -12,7 +12,7 @@
     "prebuild": "rm -rf dist",
     "build": "run-s build:esnext build:es5",
     "build:es5": "rollup -c",
-    "build:esnext": "tsc -b",
+    "build:esnext": "tsc -b tsconfig.build.json",
     "lint": "run-s lint:fix lint:types",
     "lint:check": "run-p eslint:check prettier:check",
     "lint:fix": "run-s eslint:fix prettier:fix",
