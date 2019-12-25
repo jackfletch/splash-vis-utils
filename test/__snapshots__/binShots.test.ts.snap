@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`binShots Should correctly bin shots given only one shot: default 1`] = `
+Object {
+  "binData": Array [
+    Object {
+      "x": 0,
+      "y": 0,
+    },
+    Object {
+      "x": 1,
+      "y": 0,
+    },
+    Object {
+      "x": 2,
+      "y": 0,
+    },
+    Object {
+      "x": 3,
+      "y": 0,
+    },
+    Object {
+      "x": 4,
+      "y": 0,
+    },
+    Object {
+      "x": 5,
+      "y": 0,
+    },
+    Object {
+      "x": 6,
+      "y": 0,
+    },
+    Object {
+      "x": 7,
+      "y": 0,
+    },
+    Object {
+      "x": 8,
+      "y": 0,
+    },
+    Object {
+      "x": 9,
+      "y": 0,
+    },
+    Object {
+      "x": 10,
+      "y": 0,
+    },
+    Object {
+      "x": 11,
+      "y": 1,
+    },
+  ],
+  "totalMakes": 1,
+  "totalShots": 1,
+}
+`;
+
+exports[`binShots Should correctly bin shots with max distance of 5: 5 1`] = `
+Object {
+  "binData": Array [
+    Object {
+      "x": 0,
+      "y": 316,
+    },
+    Object {
+      "x": 1,
+      "y": 180,
+    },
+    Object {
+      "x": 2,
+      "y": 87,
+    },
+    Object {
+      "x": 3,
+      "y": 32,
+    },
+    Object {
+      "x": 4,
+      "y": 18,
+    },
+    Object {
+      "x": 5,
+      "y": 25,
+    },
+  ],
+  "totalMakes": 485,
+  "totalShots": 658,
+}
+`;
+
+exports[`binShots Should correctly bin shots with max distance of Number.MAX_SAFE_INTEGRER: max 1`] = `
+Object {
+  "binData": Array [
+    Object {
+      "x": 0,
+      "y": 316,
+    },
+    Object {
+      "x": 1,
+      "y": 180,
+    },
+    Object {
+      "x": 2,
+      "y": 87,
+    },
+    Object {
+      "x": 3,
+      "y": 32,
+    },
+    Object {
+      "x": 4,
+      "y": 18,
+    },
+    Object {
+      "x": 5,
+      "y": 25,
+    },
+    Object {
+      "x": 6,
+      "y": 18,
+    },
+    Object {
+      "x": 7,
+      "y": 19,
+    },
+    Object {
+      "x": 8,
+      "y": 14,
+    },
+    Object {
+      "x": 9,
+      "y": 15,
+    },
+    Object {
+      "x": 10,
+      "y": 14,
+    },
+    Object {
+      "x": 11,
+      "y": 19,
+    },
+    Object {
+      "x": 12,
+      "y": 20,
+    },
+    Object {
+      "x": 13,
+      "y": 30,
+    },
+    Object {
+      "x": 14,
+      "y": 26,
+    },
+    Object {
+      "x": 15,
+      "y": 32,
+    },
+    Object {
+      "x": 16,
+      "y": 28,
+    },
+    Object {
+      "x": 17,
+      "y": 18,
+    },
+    Object {
+      "x": 18,
+      "y": 14,
+    },
+    Object {
+      "x": 19,
+      "y": 23,
+    },
+    Object {
+      "x": 20,
+      "y": 20,
+    },
+    Object {
+      "x": 21,
+      "y": 23,
+    },
+    Object {
+      "x": 22,
+      "y": 20,
+    },
+    Object {
+      "x": 23,
+      "y": 23,
+    },
+    Object {
+      "x": 24,
+      "y": 74,
+    },
+    Object {
+      "x": 25,
+      "y": 119,
+    },
+    Object {
+      "x": 26,
+      "y": 62,
+    },
+    Object {
+      "x": 27,
+      "y": 19,
+    },
+    Object {
+      "x": 28,
+      "y": 14,
+    },
+    Object {
+      "x": 29,
+      "y": 9,
+    },
+    Object {
+      "x": 30,
+      "y": 4,
+    },
+    Object {
+      "x": 31,
+      "y": 2,
+    },
+    Object {
+      "x": 32,
+      "y": 3,
+    },
+    Object {
+      "x": 33,
+      "y": 2,
+    },
+    Object {
+      "x": 34,
+      "y": 0,
+    },
+    Object {
+      "x": 35,
+      "y": 0,
+    },
+    Object {
+      "x": 36,
+      "y": 0,
+    },
+    Object {
+      "x": 37,
+      "y": 0,
+    },
+    Object {
+      "x": 38,
+      "y": 0,
+    },
+    Object {
+      "x": 39,
+      "y": 0,
+    },
+    Object {
+      "x": 40,
+      "y": 1,
+    },
+  ],
+  "totalMakes": 736,
+  "totalShots": 1343,
+}
+`;
+
+exports[`binShots Should correctly bin shots: default 1`] = `
+Object {
+  "binData": Array [
+    Object {
+      "x": 0,
+      "y": 316,
+    },
+    Object {
+      "x": 1,
+      "y": 180,
+    },
+    Object {
+      "x": 2,
+      "y": 87,
+    },
+    Object {
+      "x": 3,
+      "y": 32,
+    },
+    Object {
+      "x": 4,
+      "y": 18,
+    },
+    Object {
+      "x": 5,
+      "y": 25,
+    },
+    Object {
+      "x": 6,
+      "y": 18,
+    },
+    Object {
+      "x": 7,
+      "y": 19,
+    },
+    Object {
+      "x": 8,
+      "y": 14,
+    },
+    Object {
+      "x": 9,
+      "y": 15,
+    },
+    Object {
+      "x": 10,
+      "y": 14,
+    },
+    Object {
+      "x": 11,
+      "y": 19,
+    },
+    Object {
+      "x": 12,
+      "y": 20,
+    },
+    Object {
+      "x": 13,
+      "y": 30,
+    },
+    Object {
+      "x": 14,
+      "y": 26,
+    },
+    Object {
+      "x": 15,
+      "y": 32,
+    },
+    Object {
+      "x": 16,
+      "y": 28,
+    },
+    Object {
+      "x": 17,
+      "y": 18,
+    },
+    Object {
+      "x": 18,
+      "y": 14,
+    },
+    Object {
+      "x": 19,
+      "y": 23,
+    },
+    Object {
+      "x": 20,
+      "y": 20,
+    },
+    Object {
+      "x": 21,
+      "y": 23,
+    },
+    Object {
+      "x": 22,
+      "y": 20,
+    },
+    Object {
+      "x": 23,
+      "y": 23,
+    },
+    Object {
+      "x": 24,
+      "y": 74,
+    },
+    Object {
+      "x": 25,
+      "y": 119,
+    },
+    Object {
+      "x": 26,
+      "y": 62,
+    },
+    Object {
+      "x": 27,
+      "y": 19,
+    },
+    Object {
+      "x": 28,
+      "y": 14,
+    },
+    Object {
+      "x": 29,
+      "y": 9,
+    },
+    Object {
+      "x": 30,
+      "y": 4,
+    },
+    Object {
+      "x": 31,
+      "y": 2,
+    },
+    Object {
+      "x": 32,
+      "y": 3,
+    },
+    Object {
+      "x": 33,
+      "y": 2,
+    },
+  ],
+  "totalMakes": 736,
+  "totalShots": 1342,
+}
+`;
