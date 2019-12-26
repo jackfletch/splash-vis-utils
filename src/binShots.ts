@@ -1,56 +1,22 @@
-import {Point, Shot} from "./types";
-
-interface ShotDistanceMap {
-  [index: number]: Shot[];
-}
+import bin, {Bin} from "./bin";
+import {Shot} from "./types";
 
 interface BinnedShots {
-  binData: Point[];
+  bins: Bin[];
   totalShots: number;
+  totalShotsWithinMaxDistance: number;
   totalMakes: number;
 }
 
-function binShots(data: Shot[], maxDistance: number): BinnedShots {
-  const binnedShots: ShotDistanceMap = {};
-  let totalMakes = 0;
-  let totalShots = data.length;
+function binShots(shots: Shot[], maxDistance: number): BinnedShots {
+  const bins = bin(shots, maxDistance);
 
-  data.forEach(shot => {
-    if (shot.distance <= maxDistance) {
-      if (shot.distance in binnedShots) {
-        binnedShots[shot.distance].push(shot);
-      } else {
-        binnedShots[shot.distance] = [shot];
-      }
-      if (shot.made_flag) {
-        totalMakes += 1;
-      }
-    } else {
-      totalShots -= 1;
-    }
-  });
-
-  const binData: Point[] = [];
-  let x = 0;
-
-  Object.keys(binnedShots)
-    .map(Number)
-    .forEach(bin => {
-      while (x !== bin) {
-        binData.push({x, y: 0});
-        x += 1;
-      }
-      const shots = binnedShots[bin];
-      binData.push({x: bin, y: shots.length});
-      x += 1;
-    });
-
-  const binnedData = {
-    binData,
-    totalShots,
-    totalMakes,
+  return {
+    bins,
+    totalShots: shots.length,
+    totalShotsWithinMaxDistance: bins.reduce((a, b) => a + b.total, 0),
+    totalMakes: bins.reduce((a, b) => a + b.made, 0),
   };
-  return binnedData;
 }
 
 export default binShots;
