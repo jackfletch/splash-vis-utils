@@ -90,7 +90,7 @@ Object {
 }
 `;
 
-exports[`binShots Should correctly bin shots with max distance of Number.MAX_SAFE_INTEGRER: max 1`] = `
+exports[`binShots Should correctly bin shots with max distance of Number.MAX_SAFE_INTEGER: max 1`] = `
 Object {
   "binData": Array [
     Object {

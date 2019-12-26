@@ -9,7 +9,7 @@ describe("binShots", () => {
     expect(result).toMatchSnapshot("default");
   });
 
-  it("Should correctly bin shots with max distance of Number.MAX_SAFE_INTEGRER", () => {
+  it("Should correctly bin shots with max distance of Number.MAX_SAFE_INTEGER", () => {
     const result = binShots(shot2544, Number.MAX_SAFE_INTEGER);
     expect(result).toMatchSnapshot("max");
   });
