@@ -3,19 +3,19 @@ import {DEFAULT_DISTANCE, MAX_DISTANCE, SMALL_DISTANCE} from "./constants";
 import shot2544 from "./fixtures/shots/2544.json";
 
 describe("bin", () => {
-  it("Should correctly bin shots", () => {
+  it(`Should correctly bin shots with max distance of ${DEFAULT_DISTANCE}`, () => {
     const result = bin(shot2544, DEFAULT_DISTANCE);
-    expect(result).toMatchSnapshot("default");
+    expect(result).toMatchSnapshot();
   });
 
   it(`Should correctly bin shots with max distance of ${MAX_DISTANCE}`, () => {
     const result = bin(shot2544, MAX_DISTANCE);
-    expect(result).toMatchSnapshot("max");
+    expect(result).toMatchSnapshot();
   });
 
   it(`Should correctly bin shots with max distance of ${SMALL_DISTANCE}`, () => {
     const result = bin(shot2544, SMALL_DISTANCE);
-    expect(result).toMatchSnapshot("5");
+    expect(result).toMatchSnapshot();
   });
 
   it("Should correctly bin shots given only one shot", () => {
@@ -32,6 +32,6 @@ describe("bin", () => {
       },
     ];
     const result = bin(shots, DEFAULT_DISTANCE);
-    expect(result).toMatchSnapshot("default");
+    expect(result).toMatchSnapshot();
   });
 });

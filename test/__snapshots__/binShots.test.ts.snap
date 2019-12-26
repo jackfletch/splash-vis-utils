@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`binShots Should correctly bin shots given only one shot: default 1`] = `
+exports[`binShots Should correctly bin shots given only one shot 1`] = `
 Object {
   "bins": Array [
     Object {
@@ -154,7 +154,7 @@ Object {
 }
 `;
 
-exports[`binShots Should correctly bin shots with max distance of 5: 5 1`] = `
+exports[`binShots Should correctly bin shots with max distance of 5 1`] = `
 Object {
   "bins": Array [
     Object {
@@ -188,7 +188,7 @@ Object {
 }
 `;
 
-exports[`binShots Should correctly bin shots with max distance of 100: max 1`] = `
+exports[`binShots Should correctly bin shots with max distance of 100 1`] = `
 Object {
   "bins": Array [
     Object {
@@ -602,7 +602,7 @@ Object {
 }
 `;
 
-exports[`binShots Should correctly bin shots: default 1`] = `
+exports[`binShots Should correctly bin shots with max distance of 35 1`] = `
 Object {
   "bins": Array [
     Object {
