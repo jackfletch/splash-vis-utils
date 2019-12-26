@@ -1,21 +1,20 @@
 import {binShots} from "../src";
+import {DEFAULT_DISTANCE, MAX_DISTANCE, SMALL_DISTANCE} from "./constants";
 import shot2544 from "./fixtures/shots/2544.json";
 
-const DEFAULT_MAX_DISTANCE = 35;
-
 describe("binShots", () => {
-  it("Should correctly bin shots", () => {
-    const result = binShots(shot2544, DEFAULT_MAX_DISTANCE);
+  it(`Should correctly bin shots`, () => {
+    const result = binShots(shot2544, DEFAULT_DISTANCE);
     expect(result).toMatchSnapshot("default");
   });
 
-  it("Should correctly bin shots with max distance of 1000", () => {
-    const result = binShots(shot2544, 1000);
+  it(`Should correctly bin shots with max distance of ${MAX_DISTANCE}`, () => {
+    const result = binShots(shot2544, MAX_DISTANCE);
     expect(result).toMatchSnapshot("max");
   });
 
-  it("Should correctly bin shots with max distance of 5", () => {
-    const result = binShots(shot2544, 5);
+  it(`Should correctly bin shots with max distance of ${SMALL_DISTANCE}`, () => {
+    const result = binShots(shot2544, SMALL_DISTANCE);
     expect(result).toMatchSnapshot("5");
   });
 
@@ -32,7 +31,7 @@ describe("binShots", () => {
         made_flag: true,
       },
     ];
-    const result = binShots(shots, DEFAULT_MAX_DISTANCE);
+    const result = binShots(shots, DEFAULT_DISTANCE);
     expect(result).toMatchSnapshot("default");
   });
 });

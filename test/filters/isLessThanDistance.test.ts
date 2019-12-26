@@ -1,21 +1,20 @@
 import {isLessThanDistance} from "../../src/filters";
+import {DEFAULT_DISTANCE, MAX_DISTANCE, SMALL_DISTANCE} from "../constants";
 import shot2544 from "../fixtures/shots/2544.json";
-
-const DEFAULT_MAX_DISTANCE = 35;
 
 describe("isLessThanDistance", () => {
   it("Should correctly filter with max distance", () => {
-    const result = shot2544.filter(isLessThanDistance(DEFAULT_MAX_DISTANCE));
+    const result = shot2544.filter(isLessThanDistance(DEFAULT_DISTANCE));
     expect(result).toMatchSnapshot("default");
   });
 
-  it("Should correctly filter with max distance of Number.MAX_SAFE_INTEGER", () => {
-    const result = shot2544.filter(isLessThanDistance(Number.MAX_SAFE_INTEGER));
+  it(`Should correctly filter with max distance of ${MAX_DISTANCE}`, () => {
+    const result = shot2544.filter(isLessThanDistance(MAX_DISTANCE));
     expect(result).toMatchSnapshot("max");
   });
 
-  it("Should correctly filter with max distance of 5", () => {
-    const result = shot2544.filter(isLessThanDistance(5));
+  it(`Should correctly filter with max distance of ${SMALL_DISTANCE}`, () => {
+    const result = shot2544.filter(isLessThanDistance(SMALL_DISTANCE));
     expect(result).toMatchSnapshot("5");
   });
 
@@ -33,12 +32,12 @@ describe("isLessThanDistance", () => {
   ];
 
   it("Should correctly filter given one shot within max distance", () => {
-    const result = oneShot.filter(isLessThanDistance(DEFAULT_MAX_DISTANCE));
+    const result = oneShot.filter(isLessThanDistance(DEFAULT_DISTANCE));
     expect(result).toStrictEqual(oneShot);
   });
 
   it("Should correctly filter given one shot beyond max distance", () => {
-    const result = oneShot.filter(isLessThanDistance(5));
+    const result = oneShot.filter(isLessThanDistance(SMALL_DISTANCE));
     expect(result).toStrictEqual([]);
   });
 });
