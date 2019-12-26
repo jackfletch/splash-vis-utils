@@ -1,0 +1,4337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bin Should correctly bin shots given only one shot: default 1`] = `
+Array [
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 1,
+    "total": 1,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+]
+`;
+
+exports[`bin Should correctly bin shots with max distance of 5: 5 1`] = `
+Array [
+  Object {
+    "made": 270,
+    "total": 316,
+  },
+  Object {
+    "made": 132,
+    "total": 180,
+  },
+  Object {
+    "made": 52,
+    "total": 87,
+  },
+  Object {
+    "made": 14,
+    "total": 32,
+  },
+  Object {
+    "made": 9,
+    "total": 18,
+  },
+  Object {
+    "made": 8,
+    "total": 25,
+  },
+]
+`;
+
+exports[`bin Should correctly bin shots with max distance of 1000: max 1`] = `
+Array [
+  Object {
+    "made": 270,
+    "total": 316,
+  },
+  Object {
+    "made": 132,
+    "total": 180,
+  },
+  Object {
+    "made": 52,
+    "total": 87,
+  },
+  Object {
+    "made": 14,
+    "total": 32,
+  },
+  Object {
+    "made": 9,
+    "total": 18,
+  },
+  Object {
+    "made": 8,
+    "total": 25,
+  },
+  Object {
+    "made": 6,
+    "total": 18,
+  },
+  Object {
+    "made": 10,
+    "total": 19,
+  },
+  Object {
+    "made": 4,
+    "total": 14,
+  },
+  Object {
+    "made": 3,
+    "total": 15,
+  },
+  Object {
+    "made": 3,
+    "total": 14,
+  },
+  Object {
+    "made": 10,
+    "total": 19,
+  },
+  Object {
+    "made": 10,
+    "total": 20,
+  },
+  Object {
+    "made": 11,
+    "total": 30,
+  },
+  Object {
+    "made": 12,
+    "total": 26,
+  },
+  Object {
+    "made": 16,
+    "total": 32,
+  },
+  Object {
+    "made": 8,
+    "total": 28,
+  },
+  Object {
+    "made": 4,
+    "total": 18,
+  },
+  Object {
+    "made": 5,
+    "total": 14,
+  },
+  Object {
+    "made": 11,
+    "total": 23,
+  },
+  Object {
+    "made": 7,
+    "total": 20,
+  },
+  Object {
+    "made": 5,
+    "total": 23,
+  },
+  Object {
+    "made": 7,
+    "total": 20,
+  },
+  Object {
+    "made": 8,
+    "total": 23,
+  },
+  Object {
+    "made": 27,
+    "total": 74,
+  },
+  Object {
+    "made": 36,
+    "total": 119,
+  },
+  Object {
+    "made": 28,
+    "total": 62,
+  },
+  Object {
+    "made": 9,
+    "total": 19,
+  },
+  Object {
+    "made": 5,
+    "total": 14,
+  },
+  Object {
+    "made": 2,
+    "total": 9,
+  },
+  Object {
+    "made": 2,
+    "total": 4,
+  },
+  Object {
+    "made": 0,
+    "total": 2,
+  },
+  Object {
+    "made": 1,
+    "total": 3,
+  },
+  Object {
+    "made": 1,
+    "total": 2,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 1,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+]
+`;
+
+exports[`bin Should correctly bin shots: default 1`] = `
+Array [
+  Object {
+    "made": 270,
+    "total": 316,
+  },
+  Object {
+    "made": 132,
+    "total": 180,
+  },
+  Object {
+    "made": 52,
+    "total": 87,
+  },
+  Object {
+    "made": 14,
+    "total": 32,
+  },
+  Object {
+    "made": 9,
+    "total": 18,
+  },
+  Object {
+    "made": 8,
+    "total": 25,
+  },
+  Object {
+    "made": 6,
+    "total": 18,
+  },
+  Object {
+    "made": 10,
+    "total": 19,
+  },
+  Object {
+    "made": 4,
+    "total": 14,
+  },
+  Object {
+    "made": 3,
+    "total": 15,
+  },
+  Object {
+    "made": 3,
+    "total": 14,
+  },
+  Object {
+    "made": 10,
+    "total": 19,
+  },
+  Object {
+    "made": 10,
+    "total": 20,
+  },
+  Object {
+    "made": 11,
+    "total": 30,
+  },
+  Object {
+    "made": 12,
+    "total": 26,
+  },
+  Object {
+    "made": 16,
+    "total": 32,
+  },
+  Object {
+    "made": 8,
+    "total": 28,
+  },
+  Object {
+    "made": 4,
+    "total": 18,
+  },
+  Object {
+    "made": 5,
+    "total": 14,
+  },
+  Object {
+    "made": 11,
+    "total": 23,
+  },
+  Object {
+    "made": 7,
+    "total": 20,
+  },
+  Object {
+    "made": 5,
+    "total": 23,
+  },
+  Object {
+    "made": 7,
+    "total": 20,
+  },
+  Object {
+    "made": 8,
+    "total": 23,
+  },
+  Object {
+    "made": 27,
+    "total": 74,
+  },
+  Object {
+    "made": 36,
+    "total": 119,
+  },
+  Object {
+    "made": 28,
+    "total": 62,
+  },
+  Object {
+    "made": 9,
+    "total": 19,
+  },
+  Object {
+    "made": 5,
+    "total": 14,
+  },
+  Object {
+    "made": 2,
+    "total": 9,
+  },
+  Object {
+    "made": 2,
+    "total": 4,
+  },
+  Object {
+    "made": 0,
+    "total": 2,
+  },
+  Object {
+    "made": 1,
+    "total": 3,
+  },
+  Object {
+    "made": 1,
+    "total": 2,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+  Object {
+    "made": 0,
+    "total": 0,
+  },
+]
+`;
