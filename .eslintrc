@@ -35,7 +35,9 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "no-plusplus": ["error", {"allowForLoopAfterthoughts": true}],
+    "radix": ["error", "as-needed"]
   },
   "settings": {
     "import/resolver": {
