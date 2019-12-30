@@ -1,4 +1,5 @@
 import {terser} from "rollup-plugin-terser";
+import resolve from "@rollup/plugin-node-resolve";
 
 import pkg from "./package.json";
 import tsconfig from "./tsconfig.build.json";
@@ -29,6 +30,7 @@ export default {
     ...Object.keys(pkg.peerDependencies || {}),
   ],
   plugins: [
+    resolve(),
     terser({
       include: [/^.+\.min\.js$/],
     }),
