@@ -1,0 +1,737 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ribbonShots Should correctly ribbon shots given only one shot 1`] = `
+Array [
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 1,
+    "width": 1,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+]
+`;
+
+exports[`ribbonShots Should correctly ribbon shots with max distance of 5 1`] = `
+Array [
+  Object {
+    "shootingPct": 0.8544303797468354,
+    "width": 0.48024316109422494,
+  },
+  Object {
+    "shootingPct": 0.7333333333333333,
+    "width": 0.2735562310030395,
+  },
+  Object {
+    "shootingPct": 0.5977011494252874,
+    "width": 0.13221884498480244,
+  },
+  Object {
+    "shootingPct": 0.4375,
+    "width": 0.0486322188449848,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.02735562310030395,
+  },
+  Object {
+    "shootingPct": 0.32,
+    "width": 0.037993920972644375,
+  },
+]
+`;
+
+exports[`ribbonShots Should correctly ribbon shots with max distance of 35 1`] = `
+Array [
+  Object {
+    "shootingPct": 0.8544303797468354,
+    "width": 0.23546944858420268,
+  },
+  Object {
+    "shootingPct": 0.7333333333333333,
+    "width": 0.13412816691505217,
+  },
+  Object {
+    "shootingPct": 0.5977011494252874,
+    "width": 0.06482861400894188,
+  },
+  Object {
+    "shootingPct": 0.4375,
+    "width": 0.02384500745156483,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.013412816691505217,
+  },
+  Object {
+    "shootingPct": 0.32,
+    "width": 0.018628912071535022,
+  },
+  Object {
+    "shootingPct": 0.3333333333333333,
+    "width": 0.013412816691505217,
+  },
+  Object {
+    "shootingPct": 0.5263157894736842,
+    "width": 0.014157973174366617,
+  },
+  Object {
+    "shootingPct": 0.2857142857142857,
+    "width": 0.010432190760059613,
+  },
+  Object {
+    "shootingPct": 0.2,
+    "width": 0.011177347242921014,
+  },
+  Object {
+    "shootingPct": 0.21428571428571427,
+    "width": 0.010432190760059613,
+  },
+  Object {
+    "shootingPct": 0.5263157894736842,
+    "width": 0.014157973174366617,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.014903129657228018,
+  },
+  Object {
+    "shootingPct": 0.36666666666666664,
+    "width": 0.022354694485842028,
+  },
+  Object {
+    "shootingPct": 0.46153846153846156,
+    "width": 0.019374068554396422,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.02384500745156483,
+  },
+  Object {
+    "shootingPct": 0.2857142857142857,
+    "width": 0.020864381520119227,
+  },
+  Object {
+    "shootingPct": 0.2222222222222222,
+    "width": 0.013412816691505217,
+  },
+  Object {
+    "shootingPct": 0.35714285714285715,
+    "width": 0.010432190760059613,
+  },
+  Object {
+    "shootingPct": 0.4782608695652174,
+    "width": 0.01713859910581222,
+  },
+  Object {
+    "shootingPct": 0.35,
+    "width": 0.014903129657228018,
+  },
+  Object {
+    "shootingPct": 0.21739130434782608,
+    "width": 0.01713859910581222,
+  },
+  Object {
+    "shootingPct": 0.35,
+    "width": 0.014903129657228018,
+  },
+  Object {
+    "shootingPct": 0.34782608695652173,
+    "width": 0.01713859910581222,
+  },
+  Object {
+    "shootingPct": 0.36486486486486486,
+    "width": 0.05514157973174367,
+  },
+  Object {
+    "shootingPct": 0.3025210084033613,
+    "width": 0.08867362146050671,
+  },
+  Object {
+    "shootingPct": 0.45161290322580644,
+    "width": 0.046199701937406856,
+  },
+  Object {
+    "shootingPct": 0.47368421052631576,
+    "width": 0.014157973174366617,
+  },
+  Object {
+    "shootingPct": 0.35714285714285715,
+    "width": 0.010432190760059613,
+  },
+  Object {
+    "shootingPct": 0.2222222222222222,
+    "width": 0.0067064083457526085,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.0029806259314456036,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0.0014903129657228018,
+  },
+  Object {
+    "shootingPct": 0.3333333333333333,
+    "width": 0.0022354694485842027,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.0014903129657228018,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+]
+`;
+
+exports[`ribbonShots Should correctly ribbon shots with max distance of 100 1`] = `
+Array [
+  Object {
+    "shootingPct": 0.8544303797468354,
+    "width": 0.23529411764705882,
+  },
+  Object {
+    "shootingPct": 0.7333333333333333,
+    "width": 0.1340282948622487,
+  },
+  Object {
+    "shootingPct": 0.5977011494252874,
+    "width": 0.06478034251675353,
+  },
+  Object {
+    "shootingPct": 0.4375,
+    "width": 0.023827252419955324,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.01340282948622487,
+  },
+  Object {
+    "shootingPct": 0.32,
+    "width": 0.018615040953090096,
+  },
+  Object {
+    "shootingPct": 0.3333333333333333,
+    "width": 0.01340282948622487,
+  },
+  Object {
+    "shootingPct": 0.5263157894736842,
+    "width": 0.014147431124348473,
+  },
+  Object {
+    "shootingPct": 0.2857142857142857,
+    "width": 0.010424422933730455,
+  },
+  Object {
+    "shootingPct": 0.2,
+    "width": 0.011169024571854059,
+  },
+  Object {
+    "shootingPct": 0.21428571428571427,
+    "width": 0.010424422933730455,
+  },
+  Object {
+    "shootingPct": 0.5263157894736842,
+    "width": 0.014147431124348473,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.014892032762472078,
+  },
+  Object {
+    "shootingPct": 0.36666666666666664,
+    "width": 0.022338049143708117,
+  },
+  Object {
+    "shootingPct": 0.46153846153846156,
+    "width": 0.0193596425912137,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.023827252419955324,
+  },
+  Object {
+    "shootingPct": 0.2857142857142857,
+    "width": 0.02084884586746091,
+  },
+  Object {
+    "shootingPct": 0.2222222222222222,
+    "width": 0.01340282948622487,
+  },
+  Object {
+    "shootingPct": 0.35714285714285715,
+    "width": 0.010424422933730455,
+  },
+  Object {
+    "shootingPct": 0.4782608695652174,
+    "width": 0.01712583767684289,
+  },
+  Object {
+    "shootingPct": 0.35,
+    "width": 0.014892032762472078,
+  },
+  Object {
+    "shootingPct": 0.21739130434782608,
+    "width": 0.01712583767684289,
+  },
+  Object {
+    "shootingPct": 0.35,
+    "width": 0.014892032762472078,
+  },
+  Object {
+    "shootingPct": 0.34782608695652173,
+    "width": 0.01712583767684289,
+  },
+  Object {
+    "shootingPct": 0.36486486486486486,
+    "width": 0.055100521221146684,
+  },
+  Object {
+    "shootingPct": 0.3025210084033613,
+    "width": 0.08860759493670886,
+  },
+  Object {
+    "shootingPct": 0.45161290322580644,
+    "width": 0.04616530156366344,
+  },
+  Object {
+    "shootingPct": 0.47368421052631576,
+    "width": 0.014147431124348473,
+  },
+  Object {
+    "shootingPct": 0.35714285714285715,
+    "width": 0.010424422933730455,
+  },
+  Object {
+    "shootingPct": 0.2222222222222222,
+    "width": 0.006701414743112435,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.0029784065524944155,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0.0014892032762472078,
+  },
+  Object {
+    "shootingPct": 0.3333333333333333,
+    "width": 0.0022338049143708115,
+  },
+  Object {
+    "shootingPct": 0.5,
+    "width": 0.0014892032762472078,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0.0007446016381236039,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+  Object {
+    "shootingPct": 0,
+    "width": 0,
+  },
+]
+`;
