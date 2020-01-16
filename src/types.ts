@@ -11,5 +11,5 @@ export interface Shot {
   distance: number;
   x: number;
   y: number;
-  made_flag: boolean;
+  made: boolean;
 }

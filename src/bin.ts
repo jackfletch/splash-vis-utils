@@ -12,9 +12,9 @@ function bin(shots: Shot[], maxDistance: number): Bin[] {
     .map(() => ({made: 0, total: 0}));
 
   shots.filter(isLessThanDistance(maxDistance)).forEach(shot => {
-    const {distance, made_flag} = shot;
+    const {distance, made} = shot;
     bins[distance].total += 1;
-    bins[distance].made += +made_flag;
+    bins[distance].made += +made;
   });
 
   return bins;
