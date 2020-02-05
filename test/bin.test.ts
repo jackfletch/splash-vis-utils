@@ -28,7 +28,7 @@ describe("bin", () => {
         distance: 11,
         x: -79,
         y: 80,
-        made_flag: true,
+        made: true,
       },
     ];
     const result = bin(shots, DEFAULT_DISTANCE);
