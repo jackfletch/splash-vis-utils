@@ -1,3 +1,8 @@
+export interface LeftRight<T> {
+  left: T;
+  right: T;
+}
+
 export interface Point {
   x: number;
   y: number;

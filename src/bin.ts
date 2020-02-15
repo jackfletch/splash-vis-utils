@@ -1,5 +1,5 @@
 import {isLessThanDistance} from "./filters";
-import {Shot} from "./types";
+import {LeftRight, Shot} from "./types";
 
 export interface Bin {
   made: number;
@@ -20,7 +20,10 @@ function bin(shots: Shot[], maxDistance: number): Bin[] {
   return bins;
 }
 
-export function binLeftRight(shots: Shot[], maxDistance: number): Bin[][] {
+export function binLeftRight(
+  shots: Shot[],
+  maxDistance: number
+): LeftRight<Bin[]> {
   const binsLeft: Bin[] = Array(maxDistance + 1)
     .fill(undefined)
     .map(() => ({made: 0, total: 0}));
@@ -39,7 +42,7 @@ export function binLeftRight(shots: Shot[], maxDistance: number): Bin[][] {
     }
   });
 
-  return [binsLeft, binsRight];
+  return {left: binsLeft, right: binsRight};
 }
 
 export default bin;
