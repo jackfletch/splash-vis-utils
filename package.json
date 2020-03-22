@@ -65,7 +65,7 @@
   },
   "homepage": "https://github.com/jackfletch/splash-vis-utils#readme",
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.1",
     "@types/jest": "^25.1.4",
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",
@@ -79,7 +79,7 @@
     "lint-staged": "^10.0.8",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.19.1",
-    "rollup": "^1.32.1",
+    "rollup": "^2.1.0",
     "rollup-plugin-terser": "^5.3.0",
     "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
