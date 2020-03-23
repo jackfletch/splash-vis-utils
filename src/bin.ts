@@ -11,7 +11,7 @@ function bin(shots: Shot[], maxDistance: number): Bin[] {
     .fill(undefined)
     .map(() => ({made: 0, total: 0}));
 
-  shots.filter(isLessThanDistance(maxDistance)).forEach(shot => {
+  shots.filter(isLessThanDistance(maxDistance)).forEach((shot) => {
     const {distance, made} = shot;
     bins[distance].total += 1;
     bins[distance].made += +made;
@@ -31,7 +31,7 @@ export function binLeftRight(
     .fill(undefined)
     .map(() => ({made: 0, total: 0}));
 
-  shots.filter(isLessThanDistance(maxDistance)).forEach(shot => {
+  shots.filter(isLessThanDistance(maxDistance)).forEach((shot) => {
     const {distance, made, x} = shot;
     if (x < 0) {
       binsLeft[distance].total += 1;

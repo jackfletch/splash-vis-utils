@@ -10,7 +10,7 @@ function ribbonShots(data: Shot[], maxDistance: number): RibbonBin[] {
   const bins = binByDistance(data, maxDistance);
   const totalShots = bins.reduce((a, b) => a + b.total, 0);
 
-  const ribbonBins = bins.map(bin => {
+  const ribbonBins = bins.map((bin) => {
     const shootingPct = bin.total > 0 ? bin.made / bin.total : 0;
     const width = bin.total / totalShots;
     return {
