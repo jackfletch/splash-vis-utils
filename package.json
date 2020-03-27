@@ -35,12 +35,10 @@
   "lint-staged": {
     "*.{js,ts}": [
       "npm run eslint:fix",
-      "npm run prettier:fix",
-      "git add"
+      "npm run prettier:fix"
     ],
     "*.{json,md}": [
-      "npm run prettier:fix",
-      "git add"
+      "npm run prettier:fix"
     ]
   },
   "repository": {
